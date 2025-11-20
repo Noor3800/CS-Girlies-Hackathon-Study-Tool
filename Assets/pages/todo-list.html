@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../scripts/todo.js"></script>
+
+</head>
+<body>
+    <div class="body3">
+        <div id="todo-page">
+            <div class="back-btn">
+                Back
+            </div>
+            <div class="todo-container">
+                <h2 id="todo-title">To-Do List</h2>
+
+                <div class="todo-inputs">
+                    <input type="text" id="task-input" placeholder="Write your task...">
+                    
+                    <input type="datetime-local" id="task-deadline">
+                    
+                    <button id="add-task-btn">Add</button>
+                </div>
+
+                <div class="todo-stats">
+                    <span id="total-tasks">0 tasks</span> • 
+                    <span id="completed-tasks">0 completed</span>
+                </div>
+
+                <ul id="task-list"></ul>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,1 +1,0 @@
-# CS-Girlies-Hackathon-Study-Tool

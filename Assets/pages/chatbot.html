@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>AI RAG Chatbot</title>
+    <link rel="stylesheet" href="../css/chatbot.css">
+</head>
+
+<body>
+
+    <button class="back-btn">Back</button>
+
+    <div class="main-card">
+
+        <h1 class="title">Study Buddy Chatbot</h1>
+
+        <!-- Upload Section -->
+        <div class="input-section">
+            <h3>Upload Documents</h3>
+            <input type="file" id="fileInput" multiple>
+        </div>
+
+        <!-- URL Upload -->
+        <div class="input-section">
+            <h3>Paste URL</h3>
+            <input type="text" id="urlInput" placeholder="Enter URL for RAG">
+        </div>
+
+        <button id="buildBtn" class="main-btn">Build Index</button>
+
+        <!-- Chat Section -->
+        <div class="chat-box" id="chatBox"></div>
+
+        <div class="chat-input-wrapper">
+            <input type="text" id="userMessage" placeholder="Ask something...">
+            <button id="sendBtn" class="send-btn">➤</button>
+        </div>
+
+    </div>
+
+    <script src="../scripts/chatbot.js"></script>
+</body>
+</html>
